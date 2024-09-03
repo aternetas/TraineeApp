@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TraineeApp
 //
-//  Created by f f on 03.09.2024.
+//  Created by aternetas on 03.09.2024.
 //
 
 import UIKit
