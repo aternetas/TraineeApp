@@ -19,7 +19,6 @@
 		A5D138032C88A464001C4C78 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D138022C88A464001C4C78 /* Theme.swift */; };
 		A5D138052C88BFC1001C4C78 /* StartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D138042C88BFC1001C4C78 /* StartCoordinator.swift */; };
 		A5D138072C88C0BF001C4C78 /* ControllerLifecycleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D138062C88C0BF001C4C78 /* ControllerLifecycleVC.swift */; };
-		A5D138092C88C0F5001C4C78 /* AppLifecycleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D138082C88C0F5001C4C78 /* AppLifecycleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,7 +46,6 @@
 		A5D138022C88A464001C4C78 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		A5D138042C88BFC1001C4C78 /* StartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCoordinator.swift; sourceTree = "<group>"; };
 		A5D138062C88C0BF001C4C78 /* ControllerLifecycleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerLifecycleVC.swift; sourceTree = "<group>"; };
-		A5D138082C88C0F5001C4C78 /* AppLifecycleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLifecycleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +111,6 @@
 		A5D137FA2C876358001C4C78 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A5D138132C890CAE001C4C78 /* AppLifecycle */,
 				A5D138122C890C94001C4C78 /* ControllerLifecycle */,
 				A5D138112C890C81001C4C78 /* Start */,
 			);
@@ -152,14 +149,6 @@
 				A5D138062C88C0BF001C4C78 /* ControllerLifecycleVC.swift */,
 			);
 			path = ControllerLifecycle;
-			sourceTree = "<group>";
-		};
-		A5D138132C890CAE001C4C78 /* AppLifecycle */ = {
-			isa = PBXGroup;
-			children = (
-				A5D138082C88C0F5001C4C78 /* AppLifecycleVC.swift */,
-			);
-			path = AppLifecycle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +235,6 @@
 				A5D138052C88BFC1001C4C78 /* StartCoordinator.swift in Sources */,
 				A5D137A32C873755001C4C78 /* AppDelegate.swift in Sources */,
 				A5D138072C88C0BF001C4C78 /* ControllerLifecycleVC.swift in Sources */,
-				A5D138092C88C0F5001C4C78 /* AppLifecycleVC.swift in Sources */,
 				A5D137A52C873755001C4C78 /* SceneDelegate.swift in Sources */,
 				A5D138032C88A464001C4C78 /* Theme.swift in Sources */,
 			);

@@ -7,11 +7,4 @@
 
 import UIKit
 
-class ControllerLifecycleVC: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        view.backgroundColor = .systemPink
-    }
-}
+class ControllerLifecycleVC: UIViewController { }
