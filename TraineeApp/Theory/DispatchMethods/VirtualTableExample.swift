@@ -1,5 +1,5 @@
 //
-//  TableDispatchExample.swift
+//  VirtualTableExample.swift
 //  TraineeApp
 //
 //  Created by aternetas on 28.09.2024.

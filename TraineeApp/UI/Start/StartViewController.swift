@@ -44,4 +44,3 @@ class StartViewController: UIViewController {
         coordinator.show(theme: theme)
     }
 }
-
