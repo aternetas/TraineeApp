@@ -13,8 +13,8 @@ class StartCoordinator {
     
     func show(theme: Theme) {
         let vc: UIViewController = switch theme {
-        case .controllerLifecycle: ControllerLifecycleVC()
-        case .appLifecycle: AppLifecycleVC()
+        case .controllerLifecycle:
+            UIStoryboard(name: "Main", bundle: .main).instantiateViewController(withIdentifier: "ControllerLifecycleVC")  as! ControllerLifecycleVC
         }
         vc.title = theme.getName()
         navigationController.pushViewController(vc, animated: true)

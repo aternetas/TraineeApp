@@ -8,7 +8,7 @@
 import UIKit
 
 class StartViewController: UIViewController {
-
+    
     @IBOutlet weak var themesStackView: UIStackView!
 
     private var coordinator = StartCoordinator()
