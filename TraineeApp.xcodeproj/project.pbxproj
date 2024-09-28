@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -52,6 +52,10 @@
 		A5D138062C88C0BF001C4C78 /* ControllerLifecycleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerLifecycleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A570CEEA2CA81E67005B18BF /* Theory */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Theory; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		A5D1379C2C873754001C4C78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -86,6 +90,7 @@
 		A5D137A12C873754001C4C78 /* TraineeApp */ = {
 			isa = PBXGroup;
 			children = (
+				A570CEEA2CA81E67005B18BF /* Theory */,
 				A5D138102C890C65001C4C78 /* Storyboards */,
 				A5D138012C88A453001C4C78 /* Enums */,
 				A5D137FA2C876358001C4C78 /* UI */,
@@ -172,6 +177,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A570CEEA2CA81E67005B18BF /* Theory */,
 			);
 			name = TraineeApp;
 			packageProductDependencies = (
